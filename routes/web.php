@@ -18,12 +18,8 @@ use Cartalyst\Stripe\Exception\CardErrorException;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('checkout-vue');
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/checkout', function (Request $request) {
     try {
