@@ -1,4 +1,4 @@
-# Credit Card Payment with Laravel Stripe
+# Card Payment with Laravel Stripe
 
 Payment Integration With Laravel, Stripe and Vue.js
 
